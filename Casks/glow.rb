@@ -1,8 +1,7 @@
 cask "glow" do
   version "0.1.0"
-  sha256 :no_check
-
-  url "https://github.com/nmwcode/glow/releases/download/v#{version}/Glow.app.zip"
+  sha256 "f2c7634cc85cab70a835ea7069fc00cd25eb246f13ba8ec2df09fd83a13bf4cd"
+  url "https://github.com/nmwcode/glow/releases/download/v0.1.0/Glow.app.zip"
   name "Glow"
   desc "Boost XDR/HDR display brightness via Metal overlay"
   homepage "https://github.com/nmwcode/glow"
