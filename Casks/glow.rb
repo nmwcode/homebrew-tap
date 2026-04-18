@@ -1,6 +1,6 @@
 cask "glow" do
   version "0.1.0"
-  sha256 "239bd8947c93a1efcf2ad777fef10da9f980b22a8a2bbbbba90b93bb796e88df"
+  sha256 "e98f5f4e8b3fe9f9322ab7404e804518b6cc19a11b08c7856a1b2446cf7cc5e0"
   url "https://github.com/nmwcode/glow/releases/download/v0.1.0/Glow.app.zip"
   name "Glow"
   desc "Boost XDR/HDR display brightness via Metal overlay"
