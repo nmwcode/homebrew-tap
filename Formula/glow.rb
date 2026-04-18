@@ -1,9 +1,8 @@
 class Glow < Formula
   desc "Boost XDR/HDR display brightness via Metal overlay"
   homepage "https://github.com/nmwcode/glow"
-  # Updated automatically on each release by GitHub Actions
   url "https://github.com/nmwcode/glow/releases/download/v0.1.0/glow-macos-arm64.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "6e31c1927321d765a2d6012937298eb60dd8d3071f43a2620bcbde3ff35939d0"
   version "0.1.0"
 
   depends_on macos: :sonoma
