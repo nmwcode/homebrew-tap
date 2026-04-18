@@ -11,6 +11,11 @@ cask "glow" do
 
   app "Glow.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Glow.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.glow.plist",
     "~/Library/LaunchAgents/com.glow.plist",
